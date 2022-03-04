@@ -1,46 +1,53 @@
-
-.phone-screen{
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inconsolata:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Gudea:ital@1&family=Inconsolata:wght@800&display=swap');
+body{
+    background: url(https://images.unsplash.com/photo-1645037201328-de8b1b048993?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80) no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.phone-screen{
+    flex-direction: column;
     justify-content: space-evenly;
-    background-color: rgb(206, 206, 206);
-    position:absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-
-@media only screen
-    and (min-device-width : 480px)
-    {
-    .phone-screen{
-        display: none;
-    }
-}
-
-.top-card{
-    background-color: #F8F8FF;
-    display: flex;
-    justify-content: center;
-    color: #020202;
-    height: 80%;
-    margin: 10px;
     
 }
 
-.bottom-card{
-    background-color: #020202;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #F8F8FF;
-    height: 20%;
-    margin: 10px;
+footer{
+    margin-top: 5vh;
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100%;
+}
+
+h1{
+    margin-top: 5vh;
+    color: rgb(255, 255, 255);
+    font-size: 5vh;
+    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Inconsolata', monospace; */
+}
+h3{
+    color:rgba(255, 255, 255, 0.473);
+    font-family: 'Gudea', sans-serif;
+
+}
+img{
+    margin-top: 5vh;
+    width: 20vh;
+    border-radius: 50%;
 }
 
 a{
     font-size: 80px;
-    color: #F8F8FF;
+    color: #ffffffb6;
+    justify-content: center;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+a:hover{
+    color: #ffffff;
 }
