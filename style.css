@@ -8,7 +8,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-
+html, body {margin: 0; height: 100%; overflow: hidden}
 .phone-screen{
     flex-direction: column;
     justify-content: space-evenly;
